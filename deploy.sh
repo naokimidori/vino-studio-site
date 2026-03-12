@@ -37,7 +37,7 @@ rsync -avz --delete ./dist/ ${SERVER_USER}@${SERVER_IP}:${REMOTE_PATH}/
 if [ $? -eq 0 ]; then
     echo "--------------------------------------------------"
     echo "🎉 部署成功！"
-    echo "🔗 访问地址: http://vinoz.tech"
+    echo "🔗 访问地址: https://vinoz.tech"
     echo "--------------------------------------------------"
     echo "⚠️  注意：如果是首次部署，请确保服务器已安装 Nginx"
     echo "并配置 root 路径为: ${REMOTE_PATH}"

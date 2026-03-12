@@ -170,7 +170,7 @@ function updateLangSwitcherUI() {
     const btnLabel = switcher.querySelector('.lang-switcher__current');
     const meta = langMeta.find((m) => m.code === currentLang);
     if (btnLabel && meta) {
-        btnLabel.textContent = `${meta.flag} ${meta.label}`;
+        btnLabel.textContent = meta.flag;
     }
 
     // 高亮当前语言

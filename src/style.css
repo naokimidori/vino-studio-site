@@ -292,8 +292,8 @@ ol {
 .lang-switcher__btn {
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 8px 14px;
+  gap: 4px;
+  padding: 8px 12px;
   font-family: var(--font-sans);
   font-size: 0.82rem;
   font-weight: 500;
@@ -524,6 +524,8 @@ ol {
   position: relative;
   z-index: 1;
   max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .hero__tag {
@@ -548,6 +550,7 @@ ol {
   color: var(--clr-text-secondary);
   margin-bottom: var(--space-lg);
   max-width: 600px;
+  margin-inline: auto;
 }
 
 .hero__subtitle strong {
@@ -564,6 +567,7 @@ ol {
 
 .hero__actions {
   display: flex;
+  justify-content: center;
   gap: var(--space-sm);
   margin-bottom: var(--space-3xl);
 }
